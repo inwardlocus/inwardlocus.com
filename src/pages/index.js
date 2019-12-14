@@ -6,6 +6,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+const linkStyle = {
+  color: "#e0dde0",
+  boxShadow: "currentcolor 0px 1px 0px 0px",
+  textDecoration: "none",
+  transition: "box-shadow 400ms ease-out 0s"
+};
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -26,7 +33,7 @@ class BlogIndex extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Link style={linkStyle} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
