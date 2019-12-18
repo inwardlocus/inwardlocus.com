@@ -1,0 +1,15 @@
+h1 {
+  position: relative;
+  left: 10px;
+  line-height: 1.6em;
+  background: #ffdb00;
+  box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
+  transition: background-color 1000ms linear, color 300ms linear,
+    box-shadow 2000ms linear;
+}
+
+h1:hover {
+  background: #262626;
+  box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
+  color: #ffdb00;
+}
