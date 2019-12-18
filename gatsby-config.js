@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `Inward Locus`,
+    author: `Japan Vora`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://inwardlocus.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `zappy108`,
     },
   },
   plugins: [
@@ -75,4 +75,4 @@ module.exports = {
       },
     },
   ],
-}
+};
