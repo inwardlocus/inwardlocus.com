@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Inward Locus`,
+    title: `inward locus`,
     author: `Japan Vora`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog about music and books.`,
     siteUrl: `https://inwardlocus.com/`,
     social: {
       twitter: `zappy108`,

@@ -1,14 +1,7 @@
-.StrongStyle {
-  color: #191970;
-  box-shadow: currentcolor 0px 1px 0px 0px;
-  text-decoration: none;
-  transition: box-shadow 400ms ease-out 0s;
+h3 {
+  line-height: 1.6em;
+  background: white;
 }
-.SpanStyle {
-  background-color: midnightblue;
-  transition: background-color 0.5s;
-}
-
-.SpanStyle:hover {
-  background-color: gold;
+a {
+  color: tomato;
 }
