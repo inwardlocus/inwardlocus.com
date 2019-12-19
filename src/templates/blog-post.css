@@ -1,6 +1,6 @@
 h1 {
-  background: azure;
-  box-shadow: -10px 0px 0px azure, 10px 0px 0px azure;
+  background: white;
+  box-shadow: -10px 0px 0px white, 10px 0px 0px white;
   color: #fd3516;
 }
 
@@ -12,5 +12,5 @@ h1:hover {
   box-shadow: -10px 0px 0px #fd3516, 10px 0px 0px #fd3516;
   transition: background-color 100ms linear, color 100ms linear,
     box-shadow 100ms linear;
-  color: azure;
+  color: white;
 }
