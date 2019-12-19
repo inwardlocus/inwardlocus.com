@@ -1,15 +1,16 @@
 h1 {
-  position: relative;
-  left: 10px;
-  line-height: 1.6em;
-  background: #ffdb00;
-  box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
-  transition: background-color 1000ms linear, color 300ms linear,
-    box-shadow 2000ms linear;
+  background: azure;
+  box-shadow: -10px 0px 0px azure, 10px 0px 0px azure;
+  color: #fd3516;
 }
 
 h1:hover {
-  background: #262626;
-  box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
-  color: #ffdb00;
+  position: relative;
+  left: 10px;
+  line-height: 1.6em;
+  background: #fd3516;
+  box-shadow: -10px 0px 0px #fd3516, 10px 0px 0px #fd3516;
+  transition: background-color 100ms linear, color 100ms linear,
+    box-shadow 100ms linear;
+  color: azure;
 }
