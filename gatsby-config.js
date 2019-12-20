@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `inward locus`,
     author: `Japan Vora`,
-    description: `A blog about music and books.`,
+    description: `A library of inward reflections.`,
     siteUrl: `https://inwardlocus.com/`,
     social: {
       twitter: `zappy108`,
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/inward-locus.png`,
       },
     },
     `gatsby-plugin-offline`,
