@@ -2,8 +2,13 @@
 
 h1 {
   font-family: "Shadows Into Light", cursive;
-  color: azure;
+  color: white;
 }
-/* a {
-  color: azure;
+h3 {
+  border-bottom: 4px solid;
+  border-radius: 10%;
+  border-color: #fd3516;
+}
+/* p {
+  padding-left: 2rem;
 } */
