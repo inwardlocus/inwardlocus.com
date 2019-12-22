@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   background: white;
   box-shadow: -10px 0px 0px white, 10px 0px 0px white;
   color: #fd3516;
@@ -13,4 +13,19 @@ h1:hover {
   transition: background-color 100ms linear, color 100ms linear,
     box-shadow 100ms linear;
   color: white;
+} */
+h1 {
+  transition: background-color 0.5s;
+  color: black;
+  position: relative;
+  left: 10px;
+  box-shadow: -10px 0px 0px gold, 10px 0px 0px gold;
+  background-color: gold;
+}
+
+h1:hover {
+  background-color: white;
+  box-shadow: -10px 0px 0px white, 10px 0px 0px white;
+  transition: background-color 100ms linear, color 100ms linear,
+    box-shadow 100ms linear;
 }
