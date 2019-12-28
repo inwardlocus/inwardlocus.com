@@ -21,15 +21,15 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-            <h1
+            <h2
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
               }}
             >
               {post.frontmatter.title}
-            </h1>
-            <p
+            </h2>
+            <small
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
               }}
             >
               {post.frontmatter.date}
-            </p>
+            </small>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
