@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 
 h1 {
-  font-family: "Shadows Into Light", cursive;
-  color: white;
+  font-family: "Exo", sans-serif;
 }
 h3 {
+  font-family: "Exo", sans-serif;
   border-bottom: 4px solid;
   border-radius: 0%;
   border-color: #fd3516;
+}
+small {
+  font-family: "Exo", sans-serif;
 }
 /* p {
   padding-left: 2rem;
