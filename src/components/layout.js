@@ -27,7 +27,7 @@ class Layout extends React.Component {
               ...scale(1.5),
               marginBottom: rhythm(0),
               marginTop: 0,
-              borderBottom: `1mm ridge #fd3516`,
+              // borderBottom: `1mm ridge #fd3516`,
             }}
           >
             <Link

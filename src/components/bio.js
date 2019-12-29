@@ -54,7 +54,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       /> */}
-      <p>
+      <p className="biotext">
         {/* Written by <strong>{author}</strong>. */} A bibliography. An
         Extravagant view from the inside. A view in the mirror. A solution to
         equation.
