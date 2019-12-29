@@ -41,7 +41,7 @@ const Bio = () => {
         marginBottom: rhythm(0),
       }}
     >
-      <Image
+      {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
@@ -53,14 +53,15 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
+      /> */}
       <p>
-        Written by <strong>{author}</strong>. A bibliography. An Extravagant
-        view from the inside. A view in the mirror. A solution to equation.
-        {` `}
+        {/* Written by <strong>{author}</strong>. */} A bibliography. An
+        Extravagant view from the inside. A view in the mirror. A solution to
+        equation.
+        {/* {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
-        </a>
+        </a> */}
       </p>
     </div>
   );

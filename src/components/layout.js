@@ -25,8 +25,9 @@ class Layout extends React.Component {
             className="mysitetitle"
             style={{
               ...scale(1.5),
-              marginBottom: rhythm(1),
+              marginBottom: rhythm(0),
               marginTop: 0,
+              borderBottom: `1mm ridge #fd3516`,
             }}
           >
             <Link
