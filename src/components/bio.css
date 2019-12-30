@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 h3 {
   line-height: 1em;
   background: white;
@@ -7,4 +8,12 @@ a {
 }
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.biotext {
+  background-color: #fd3516;
+  margin-top: 3px;
+  padding: 0 10px 0 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Exo", sans-serif;
 }
