@@ -2,6 +2,7 @@
 title: Liberation
 date: "2019-12-19"
 description: This is a zen poem about a seeker and his search for the meaning of life.
+tags: ["zen", "poems"]
 ---
 
 Beyond the reach of speech and mind</br>
