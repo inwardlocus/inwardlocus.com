@@ -5,7 +5,9 @@
   font-family: "Exo", sans-serif;
   padding-bottom: solid red 20px;
 }
-
+.mysitetitle:hover {
+  color: blue;
+}
 h2 {
   font-family: "Exo", sans-serif;
 }
