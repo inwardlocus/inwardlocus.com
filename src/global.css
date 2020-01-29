@@ -18,14 +18,14 @@ h3 {
 }
 small {
   font-family: "Exo", sans-serif;
-  color: #fd3516;
+  color: blue;
   font-weight: bold;
   font-size: 0.9em;
   /* padding: 3px;
   border: solid 2px; */
 }
 a:hover {
-  color: #fd3516;
+  color: blue;
 }
 /* p {
   padding-left: 2rem;
