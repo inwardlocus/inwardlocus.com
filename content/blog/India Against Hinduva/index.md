@@ -1,7 +1,7 @@
 ---
 title: Is india against Hindutva?
 date: "2020-02-19"
-description: Brief article from "Bunch of THoughts" by M S Golwalkar on nation's consciuosness.
+description: Brief article from "Bunch of THoughts" by M S Golwalkar on nation's consciousness.
 ---
 
 #### History Warns
