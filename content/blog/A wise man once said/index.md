@@ -2,6 +2,7 @@
 title: A wise man once said
 date: "2019-12-20"
 description: This is a poem about how to lead a good life.
+tags: ["hi"]
 ---
 
 I find it wise and kind</br>
