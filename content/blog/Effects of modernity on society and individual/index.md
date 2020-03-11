@@ -2,6 +2,7 @@
 title: Effects of modernity on society and individual
 date: "2019-12-28"
 description: This article explores the concept of modernity and its effect on societies and individuals briefly.
+tags: ["philosophy", "people"]
 ---
 
 Modern times don’t allow anything by chance. It is assumed that the nature is basically law-governed and predictable. And it has come at a time when most societies are fragile, unstable. More importantly impact of technology and its evolution is unpredictable and yet standardization of human’s interaction with nature has been the primary agenda. Current social condition is in state of flux. Individual identity and imagined societies - everything is temporary and subject to unpredictable change owing to social media advancements and fast track globalization. </br>

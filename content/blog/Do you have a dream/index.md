@@ -2,6 +2,7 @@
 title: Why dreams are so important?
 date: "2019-12-30"
 description: This is a brief article on dreams based on Paulo Coelho's The Alchemist.
+tags: ["philosophy"]
 ---
 
 We must never stop dreaming. Dreams provide nourishment for the soul, just as the meal does for the body. Many times in our life we see our dreams shattered and our desires frustrated, but we have to continue dreaming. If we don't, our soul dies and agape cannot reach it. </br>

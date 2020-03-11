@@ -1,6 +1,7 @@
 ---
 title: We are only humans
 date: "2020-01-13"
+tags: ["short-read", "diary", "people"]
 ---
 
 #### We are only humans.

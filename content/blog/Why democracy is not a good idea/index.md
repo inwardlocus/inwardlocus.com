@@ -2,6 +2,7 @@
 title: Why democracy is not a good idea?
 date: "2019-12-24"
 description: Why democracy is not a good idea? Powerful lesson to learn from nature. The main difference between rich countries and poor countries.
+tags: ["India", "politics", "people"]
 ---
 
 What we perceive as general principles or notions of virtues at large, are constant. Because if they are not constant, they cannot be true. They become mere opinions. And problem with democratic and so called educated society like India is that people tend to kill off everyone with different opinions. If this democratic power of opinions can challenge everything and everyone, it’s a chaos. And how this opinion of mass or majority rule is different from monarchy?</br>

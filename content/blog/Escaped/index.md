@@ -1,6 +1,7 @@
 ---
 title: Escaped
 date: "2020-02-23"
+tags: ["poems", "diary"]
 ---
 
 (Time) </br>

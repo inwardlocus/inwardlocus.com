@@ -2,6 +2,7 @@
 title: On 60th death anniversary of Albert Camus
 date: "2020-01-04"
 description: As the day marks the 60th anniversary of the death of Albert Camus, his wartime letter and its relevance in today's indian subcontinent situation can be worth comparing.
+tags: ["philosophy", "India", "bookmarks", "politics"]
 ---
 
 **“The systematic waste of able-bodied individuals in the county is not only killing the country but also the lively and vibrant ideas that will ensure its future. This is what we must avoid and it’s this situation that we must remind people of every day, every hour if necessary in all articles, all broadcasts, all gatherings, and all proclamations aimed at those who set the pace of this war. The rest is up to us.”**</br>

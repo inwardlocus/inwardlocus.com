@@ -1,6 +1,8 @@
 ---
+
 title: How to get more and want less?
 date: "2020-01-28"
+tags: ["philosophy", "short-read"]
 ---Life is so rich, has so many treasures, we go to it with empty hearts; we do not know how to fill our hearts with the abundance of life. We are poor inwardly, and when the riches are offered to us we refuse.
 
 Often we find ourselves standing there alone. Unaware of the direction. Life’s offering go unnoticed. We don’t see fulfillment or joy of having what life has to offer. We constantly look for the better and better. While deep down in our mind we know it might not even exist. But in these very fear and flaws, we end up finding our true self. Our strength. When we are truly empty from the inside and totally exposed to the delicacy of life, we come to having sense of purpose. We appreciate the abundance of life. The pain of losing or leaving disguised as pride disappears.

@@ -2,6 +2,7 @@
 title: Ordinary Life
 date: "2019-12-19"
 description: Poem about zen experience and non duality.
+tags: ["zen", "poems"]
 ---
 
 Traceless like a stream and cloud </br>
