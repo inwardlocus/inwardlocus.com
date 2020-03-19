@@ -2,6 +2,7 @@
 
 title: Silence
 date: "2019-12-19"
+tags: ["diary", "poems"]
 ---Nor in the cold grave</br>
 Nor down the deep blue sea</br>
 Oh! The silence needs home I thought</br>

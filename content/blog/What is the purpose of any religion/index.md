@@ -2,6 +2,7 @@
 
 title: What is the purpose of any religion?
 date: "2020-01-19"
+tags: ["bookmarks", "spirituality", "Hindutva","people"]
 ---What is the purpose of any religion?
 Religion has many facets to release and free the soul from ceaseless cycle of birth and death to attain salvation. Mode of worship varies among persons of different faiths. It is an assimilation of the individual soul with the infinite. For its attainment diverse views and theories have been propounded and one of them is idol worship.</br>
 

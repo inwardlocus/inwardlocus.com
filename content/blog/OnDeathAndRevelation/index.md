@@ -2,6 +2,7 @@
 title: On Death And Revelation
 date: "2019-12-23"
 description: This is a poem about a seeker and his revelation at funeral pyre, funeral home experiences and what an indian funeral procedure looks like. It also explores glimpse of non duality and advait vedanta in the end.
+tags: ["diary", "poems", "death"]
 ---
 
 Of what was and what could be</br>

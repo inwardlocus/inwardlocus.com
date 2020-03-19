@@ -1,6 +1,7 @@
 ---
 title: Sound Of Silence
 date: "2020-03-11"
+tags: ["diary", "poems", "upanishad"]
 ---
 
 Eyes are looking for </br>

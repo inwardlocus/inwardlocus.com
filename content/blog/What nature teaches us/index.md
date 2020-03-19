@@ -2,6 +2,7 @@
 title: What nature teaches us?
 date: "2019-12-21"
 description: Powerful lesson to learn from nature.
+tags: ["short-read"]
 ---
 
 Life is a school, we have entered since we were born. Its way of teaching lessons is very peculiar. The thing is

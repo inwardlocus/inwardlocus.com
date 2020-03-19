@@ -2,6 +2,7 @@
 title: How to begin to explore spirituality?
 date: "2020-01-02"
 description: What is spirituality? How to start a spiritual practice? How to explore spirituality? Find simple ways to explore spirituality in modern times. How to start a spiritual practice and where to begin?
+tags: ["osho", "spirituality", "short-read"]
 ---
 
 ####“The less people know, the more stubbornly they know it.” ~ [Osho](https://www.osho.com/)
