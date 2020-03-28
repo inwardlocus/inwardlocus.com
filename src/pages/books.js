@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 
 function Books(props) {
   return (
-    <Layout location={props.location} title="Books">
+    <Layout title="Books">
       <SEO title="Books"></SEO>
       <ul>
         <li>My Book 1</li>

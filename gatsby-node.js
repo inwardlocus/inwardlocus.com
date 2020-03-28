@@ -5,8 +5,8 @@ const _ = require("lodash");
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`);
-  const tagTemplate = path.resolve(`./src/templates/tags.js`);
+  const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`);
+  const tagPostsTemplate = path.resolve(`./src/templates/tag-posts.js`);
 
   const result = await graphql(
     `
@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: blogPostTemplate,
       context: {
         slug: post.node.fields.slug,
         previous,
@@ -64,7 +64,7 @@ exports.createPages = async ({ graphql, actions }) => {
   tags.forEach(tag => {
     createPage({
       path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
-      component: tagTemplate,
+      component: tagPostsTemplate,
       context: {
         tag: tag.fieldValue,
       },
