@@ -1,71 +1,23 @@
 import React from "react";
-import PropTypes from "prop-types";
-
-// Utilities
-import kebabCase from "lodash/kebabCase";
-
-// Components
 import { Helmet } from "react-helmet";
-import { Link, graphql } from "gatsby";
-
-const taghead = { fontFamily: "Exo", textAlign: "center" };
-const linkstyle = {
-  color: "white",
-  boxShadow: "none",
-  fontFamily: "Georgia",
-};
-const tagstyle = {
-  background: "blue",
-  lineHeight: 1.5,
-  padding: 1.5,
-  margin: 2.5,
-  textAlign: "center",
-  borderRadius: 9,
-  fontWeight: "bold",
-};
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import Tags from "../components/Tags";
 
 const TagsPage = ({
   data: {
-    allMarkdownRemark: { group },
+    allMarkdownRemark: { tags },
     site: {
       siteMetadata: { title },
     },
   },
+  ...props
 }) => (
-  <div>
-    <Helmet title={title} />
-    <div>
-      <h1 style={taghead}>Tags</h1>
-      <ul>
-        {group.map(tag => (
-          <li style={tagstyle} key={tag.fieldValue}>
-            <Link style={linkstyle} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </div>
+  <Layout title={`Tags | ${title}`}>
+    <Helmet />
+    <Tags tags={tags} />
+  </Layout>
 );
-
-TagsPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired
-      ),
-    }),
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }),
-};
 
 export default TagsPage;
 
@@ -77,7 +29,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      tags: group(field: frontmatter___tags) {
         fieldValue
         totalCount
       }
