@@ -8,6 +8,22 @@ import kebabCase from "lodash/kebabCase";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 
+const taghead = { fontFamily: "Exo", textAlign: "center" };
+const linkstyle = {
+  color: "white",
+  boxShadow: "none",
+  fontFamily: "Georgia",
+};
+const tagstyle = {
+  background: "blue",
+  lineHeight: 1.5,
+  padding: 1.5,
+  margin: 2.5,
+  textAlign: "center",
+  borderRadius: 9,
+  fontWeight: "bold",
+};
+
 const TagsPage = ({
   data: {
     allMarkdownRemark: { group },
@@ -19,11 +35,11 @@ const TagsPage = ({
   <div>
     <Helmet title={title} />
     <div>
-      <h1>Tags</h1>
+      <h1 style={taghead}>Tags</h1>
       <ul>
         {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+          <li style={tagstyle} key={tag.fieldValue}>
+            <Link style={linkstyle} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} ({tag.totalCount})
             </Link>
           </li>
