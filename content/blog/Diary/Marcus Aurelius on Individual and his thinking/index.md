@@ -1,7 +1,7 @@
 ---
 title: Marcus Aurelius on Individual and his thinking
 date: "2020-03-28"
-description: Some excertps from Meditations by Marcus Aurelius
+description: Excerpt from Meditations by Marcus Aurelius
 tags: ["philosophy", "people"]
 ---
 
