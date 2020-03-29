@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Menu from "../components/Menu";
 
 import { rhythm, scale } from "../utils/typography";
 
@@ -41,6 +42,9 @@ function Layout(props) {
         </h1>
       </header>
       <main>{children}</main>
+
+      <Menu />
+
       <footer
         css={`
           margin: 1rem 0;

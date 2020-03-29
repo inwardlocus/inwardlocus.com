@@ -1,15 +1,57 @@
 import React from "react";
 import { Link } from "gatsby";
-import "./Menu.css";
 
-function Menu(props) {
+function Menu() {
   return (
-    <ul>
+    <ul
+      css={`
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 1rem 0;
+      `}
+    >
       <li>
-        <Link to="/about">About</Link>
+        <Link
+          css={`
+            background: midnightblue;
+            line-height: 1.5;
+            padding: 5px 10px;
+            margin: 5px;
+            font-weight: bold;
+            color: white;
+            box-shadow: none;
+            font-family: "Georgia";
+
+            :hover {
+              color: white;
+            }
+          `}
+          to="/"
+        >
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/books">Books</Link>
+        <Link
+          css={`
+            background: midnightblue;
+            line-height: 1.5;
+            padding: 5px 10px;
+            margin: 5px;
+            font-weight: bold;
+            color: white;
+            box-shadow: none;
+            font-family: "Georgia";
+
+            :hover {
+              color: white;
+            }
+          `}
+          to="/tags"
+        >
+          All Tags
+        </Link>
       </li>
     </ul>
   );
