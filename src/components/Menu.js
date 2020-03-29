@@ -14,7 +14,7 @@ function Menu() {
       <li>
         <Link
           css={`
-            background: midnightblue;
+            background: red;
             line-height: 1.5;
             padding: 5px 10px;
             margin: 5px;
@@ -35,7 +35,7 @@ function Menu() {
       <li>
         <Link
           css={`
-            background: midnightblue;
+            background: red;
             line-height: 1.5;
             padding: 5px 10px;
             margin: 5px;
