@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 const TagPosts = ({ pageContext, data }) => {
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMarkdownRemark;
-  const tagHeader = `${totalCount} post${
+  const tagHeader = `${totalCount} read${
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`;
 
@@ -13,7 +13,7 @@ const TagPosts = ({ pageContext, data }) => {
     <Layout title={tagHeader}>
       <ul
         css={`
-          margin: 1rem 0;
+          margin: 2rem 0;
         `}
       >
         {edges.map(({ node }) => {
@@ -26,31 +26,6 @@ const TagPosts = ({ pageContext, data }) => {
           );
         })}
       </ul>
-      <div
-        css={`
-          text-align: center;
-        `}
-      >
-        <Link
-          css={`
-            background: blue;
-            line-height: 1.5;
-            padding: 5px 10px;
-            margin: 5px;
-            font-weight: bold;
-            color: white;
-            box-shadow: none;
-            font-family: "Georgia";
-
-            :hover {
-              color: white;
-            }
-          `}
-          to="/tags"
-        >
-          All tags
-        </Link>
-      </div>
     </Layout>
   );
 };
