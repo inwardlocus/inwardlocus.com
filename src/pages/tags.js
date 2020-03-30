@@ -13,7 +13,15 @@ const TagsPage = ({
   },
   ...props
 }) => (
-  <Layout title={`Tags | ${title}`}>
+  <Layout title={`${title}`}>
+    <h2
+      css={`
+        margin: 28px 0;
+        font-family: "Exo";
+      `}
+    >
+      Tags
+    </h2>
     <Helmet />
     <Tags tags={tags} />
   </Layout>
