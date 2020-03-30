@@ -2,6 +2,7 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 
 import Bio from "../components/bio";
+import Line from "../components/Line";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
@@ -15,6 +16,8 @@ function BlogIndex(props) {
     <Layout title={siteTitle}>
       <SEO title="A library of inward reflections." />
       <Bio />
+      <Line />
+
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (

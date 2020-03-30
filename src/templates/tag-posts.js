@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
 import Bio from "../components/bio";
+import Line from "../components/Line";
 
 const TagPosts = ({ pageContext, data }) => {
   const { tag } = pageContext;
@@ -14,6 +15,7 @@ const TagPosts = ({ pageContext, data }) => {
   return (
     <Layout title={siteTitle}>
       <Bio />
+      <Line />
       <h2
         css={`
           margin: 28px 0;

@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
 import "./blog-post.css";
 import Tags from "../components/Tags";
+import Line from "../components/Line";
 
 function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
@@ -15,6 +16,8 @@ function BlogPostTemplate(props) {
 
   return (
     <Layout title={siteTitle}>
+      <Bio />
+      <Line />
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
