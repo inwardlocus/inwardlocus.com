@@ -20,19 +20,23 @@ function Tags({ tags }) {
       {tags.map(tag => (
         <li
           css={`
-            background: blue;
+            background: white;
             line-height: 1.5;
             padding: 5px 10px;
             margin: 5px;
             font-weight: bold;
+            border: solid blue;
+            :hover {
+              background: blue;
+            }
           `}
           key={tag.fieldValue}
         >
           <Link
             css={`
-              color: white;
+              color: blue;
               box-shadow: none;
-              font-family: "Georgia";
+              font-family: "exo";
 
               :hover {
                 color: white;
