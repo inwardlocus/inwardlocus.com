@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Tags from "../components/Tags";
 import Bio from "../components/bio";
+import Line from "../components/Line";
 
 const TagsPage = ({
   data: {
@@ -16,6 +17,8 @@ const TagsPage = ({
 }) => (
   <Layout title={`${title}`}>
     <Bio />
+    <Line />
+
     <h2
       css={`
         margin: 28px 0;

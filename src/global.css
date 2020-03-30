@@ -7,6 +7,7 @@
 }
 .mysitetitle:hover {
   color: blue;
+  /* color: linear-gradient(to right, blue, red, blue); */
 }
 h2 {
   font-family: "Exo", sans-serif;
