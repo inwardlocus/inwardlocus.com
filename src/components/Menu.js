@@ -21,10 +21,12 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "Georgia";
+            font-family: "exo";
+            border: solid red;
 
             :hover {
-              color: white;
+              color: red;
+              background: white;
             }
           `}
           to="/"
@@ -42,10 +44,12 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "Georgia";
+            font-family: "exo";
+            border: solid red;
 
             :hover {
-              color: white;
+              color: red;
+              background: white;
             }
           `}
           to="/tags"
@@ -53,6 +57,29 @@ function Menu() {
           All Tags
         </Link>
       </li>
+      {/* <li>
+        <a
+          css={`
+            background: red;
+            line-height: 1.5;
+            padding: 5px 10px;
+            margin: 5px;
+            font-weight: bold;
+            color: white;
+            box-shadow: none;
+            font-family: "exo";
+            border: solid red;
+
+            :hover {
+              color: red;
+              background: white;
+            }
+          `}
+          href={`https://twitter.com/zappy108`}
+        >
+          Twitter
+        </a>
+      </li> */}
     </ul>
   );
 }
