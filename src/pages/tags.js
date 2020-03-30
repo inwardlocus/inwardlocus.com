@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Tags from "../components/Tags";
+import Bio from "../components/bio";
 
 const TagsPage = ({
   data: {
@@ -14,6 +15,7 @@ const TagsPage = ({
   ...props
 }) => (
   <Layout title={`${title}`}>
+    <Bio />
     <h2
       css={`
         margin: 28px 0;
