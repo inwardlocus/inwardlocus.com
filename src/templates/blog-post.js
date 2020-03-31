@@ -46,7 +46,8 @@ function BlogPostTemplate(props) {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
+            {post.frontmatter.date} | {post.timeToRead}
+            {" min read "}
           </small>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -109,6 +110,7 @@ export const pageQuery = graphql`
         description
         tags
       }
+      timeToRead
     }
   }
 `;
