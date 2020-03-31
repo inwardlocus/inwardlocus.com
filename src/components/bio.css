@@ -16,4 +16,5 @@ p {
   color: white;
   font-weight: bold;
   font-family: "Exo", sans-serif;
+  box-shadow: 0 6px 6px -6px black;
 }
