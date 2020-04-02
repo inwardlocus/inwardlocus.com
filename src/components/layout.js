@@ -24,7 +24,7 @@ function Layout(props) {
           className="mysitetitle"
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(0),
+            marginBottom: rhythm(0.5),
             marginTop: 0,
             // borderBottom: `1mm ridge #fd3516`,
           }}
