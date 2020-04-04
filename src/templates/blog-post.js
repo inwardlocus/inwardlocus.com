@@ -13,6 +13,9 @@ function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
   const siteTitle = props.data.site.siteMetadata.title;
   const { previous, next } = props.pageContext;
+  const image = post.frontmatter.image
+    ? post.frontmatter.image.childImageSharp.resize
+    : null;
 
   return (
     <Layout title={siteTitle}>
@@ -21,6 +24,7 @@ function BlogPostTemplate(props) {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        image={image}
       />
       <article>
         <header>
@@ -56,9 +60,7 @@ function BlogPostTemplate(props) {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
-          <Bio />
-        </footer>
+        <footer>{/* <Bio /> */}</footer>
       </article>
 
       <nav>
