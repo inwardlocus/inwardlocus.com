@@ -60,7 +60,7 @@ function BlogPostTemplate(props) {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>{/* <Bio /> */}</footer>
+        {/* <footer><Bio /></footer> */}
       </article>
 
       <nav>
