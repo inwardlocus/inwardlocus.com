@@ -2,7 +2,7 @@
 title: वयं पंचाधिकं शतम् - RSS Values & Strength
 date: "2020-04-03"
 description: What are RSS values ? What is RSS philosophy? Learn more about RSS values and philosophy in brief. Read about the core value of Sangh and its leaders.
-tags: ["RSS", "hindutva", "diary"]
+tags: ["RSS", "hindutva", "diary","gujarati]
 ---
 
 <q> **वयं पंचाधिकं शतम्** </br>
