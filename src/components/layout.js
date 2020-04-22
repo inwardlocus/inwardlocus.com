@@ -50,13 +50,13 @@ function Layout(props) {
       </header>
       <main>{children}</main>
 
-      <Menu />
+      <Menu style={{ marginTop: "3em", marginBottom: "0 px" }} />
 
       <footer
         css={`
-          margin: 1rem 0;
+          margin: 2rem 0;
           font-weight: bold;
-          font-family: "exo";
+          font-family: "Noto Sans", sans-serif;
         `}
       >
         <Contact>

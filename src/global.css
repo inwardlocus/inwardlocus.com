@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .mysitetitle {
-  font-family: "Exo", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   padding-bottom: solid red 20px;
 }
 .mysitetitle:hover {
@@ -11,17 +11,17 @@
   /* color: linear-gradient(to right, blue, red, blue); */
 }
 h2 {
-  font-family: "Exo", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 h3 {
-  font-family: "Exo", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   /* border-bottom: 4px solid;
   border-radius: 0%;
   border-color: #fd3516; */
 }
 small {
-  font-family: "Exo", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   font-size: 0.9em;
   color: grey;
@@ -31,6 +31,7 @@ small {
 }
 a:hover {
   color: blue;
+  font-family: "Noto Sans", sans-serif;
 }
 /* p {
   padding-left: 2rem;
