@@ -19,7 +19,7 @@ const TagPosts = ({ pageContext, data }) => {
       <h2
         css={`
           margin: 28px 0;
-          font-family: "Exo";
+          font-family: "Noto Sans", sans-serif;
         `}
       >
         {totalCount} read{totalCount === 1 ? "" : "s"} tagged with "{tag}"
@@ -28,7 +28,7 @@ const TagPosts = ({ pageContext, data }) => {
       <ul
         css={`
           margin: 2rem 0;
-          font-family: "Exo";
+          font-family: "Noto Sans", sans-serif;
         `}
       >
         {edges.map(({ node }) => {

@@ -22,7 +22,7 @@ const TagsPage = ({
     <h2
       css={`
         margin: 28px 0;
-        font-family: "Exo";
+        font-family: "Noto Sans", sans-serif;
       `}
     >
       Tags

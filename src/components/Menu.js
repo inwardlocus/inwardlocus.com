@@ -8,7 +8,7 @@ function Menu() {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        margin: 1rem 0;
+        margin: 0rem 0;
       `}
     >
       <li>
@@ -21,7 +21,8 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "exo";
+            font-family: "Noto Sans", sans-serif;
+
             border: solid red;
 
             :hover {
@@ -42,7 +43,8 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "exo";
+            font-family: "Noto Sans", sans-serif;
+
             border: solid red;
 
             :hover {
@@ -65,7 +67,8 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "exo";
+            font-family: "Noto Sans", sans-serif;
+
             border: solid red;
 
             :hover {
@@ -88,7 +91,7 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "exo";
+            font-family: "Noto Sans", sans-serif;
             border: solid red;
 
             :hover {

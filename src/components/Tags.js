@@ -36,7 +36,7 @@ function Tags({ tags }) {
             css={`
               color: blue;
               box-shadow: none;
-              font-family: "exo";
+              font-family: "Noto Sans", sans-serif;
 
               :hover {
                 color: white;
