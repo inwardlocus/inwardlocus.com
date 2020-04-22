@@ -14,8 +14,8 @@ const TagPosts = ({ pageContext, data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <Bio />
-      <Line />
+      {/* <Bio />
+      <Line /> */}
       <h2
         css={`
           margin: 28px 0;

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .mysitetitle {
   font-family: "Exo", sans-serif;
@@ -21,7 +22,6 @@ h3 {
 }
 small {
   font-family: "Exo", sans-serif;
-  color: blue;
   font-weight: bold;
   font-size: 0.9em;
   /* padding: 3px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import styled from "styled-components";
+
 import Bio from "../components/bio";
 import Line from "../components/Line";
 import Layout from "../components/layout";
@@ -11,17 +11,12 @@ function BlogIndex(props) {
   const { data } = props;
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
-  const Desc = styled.p`
-    font-family: "Noto Sans", sans-serif;
-    font-weight: bold;
-    color: #696969;
-  `;
 
   return (
     <Layout title={siteTitle}>
       <SEO title="A library of inward reflections." />
-      {/* <Bio /> */}
-      {/* /<Line /> */}
+      {/* <Bio />
+      <Line /> */}
 
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
@@ -42,13 +37,13 @@ function BlogIndex(props) {
                 {" min read "}
               </small>
             </header>
-            <Desc>
+            <section>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
               />
-            </Desc>
+            </section>
           </article>
         );
       })}
@@ -65,10 +60,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt
