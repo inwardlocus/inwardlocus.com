@@ -33,6 +33,27 @@ function Menu() {
         >
           Home
         </Link>
+        <Link
+          css={`
+            background: red;
+            line-height: 1.5;
+            padding: 5px 10px;
+            margin: 5px;
+            font-weight: bold;
+            color: white;
+            box-shadow: none;
+            font-family: "exo";
+            border: solid red;
+
+            :hover {
+              color: red;
+              background: white;
+            }
+          `}
+          to="/allposts"
+        >
+          All Posts
+        </Link>
       </li>
       <li>
         <Link

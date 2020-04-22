@@ -1,8 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
 import Menu from "../components/Menu";
+import styled from "styled-components";
 
 import { rhythm, scale } from "../utils/typography";
+
+const Contact = styled.p`
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: 1px solid;
+`;
 
 function Layout(props) {
   const { title, children } = props;
@@ -48,10 +55,15 @@ function Layout(props) {
       <footer
         css={`
           margin: 1rem 0;
+          font-weight: bold;
+          font-family: "exo";
         `}
       >
-        © {new Date().getFullYear()}, Inward Locus
-        {` `}
+        <Contact>
+          The best way to contact me is to write me a letter to my e-mail
+          address : <span style={{ color: "blue" }}>inwardlocus@gmail.com</span>
+        </Contact>
+        ©{new Date().getFullYear()}, Inward Locus
       </footer>
     </div>
   );

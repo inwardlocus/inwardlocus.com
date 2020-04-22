@@ -16,8 +16,8 @@ const TagsPage = ({
   ...props
 }) => (
   <Layout title={`${title}`}>
-    <Bio />
-    <Line />
+    {/* <Bio />
+    <Line /> */}
 
     <h2
       css={`
