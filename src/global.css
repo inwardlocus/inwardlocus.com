@@ -24,6 +24,8 @@ small {
   font-family: "Exo", sans-serif;
   font-weight: bold;
   font-size: 0.9em;
+  color: grey;
+
   /* padding: 3px;
   border: solid 2px; */
 }

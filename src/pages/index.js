@@ -14,7 +14,7 @@ function BlogIndex(props) {
   const Desc = styled.p`
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    color: #696969;
+    /* color: #696969; */
   `;
 
   return (
