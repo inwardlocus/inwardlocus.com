@@ -2,6 +2,7 @@
 title: તમે અને હું
 date: "2020-05-11"
 tags: ["poems", "gujarati"]
+description: આ તો અમસ્તું.
 ---
 
 **(તમે)**</br>
