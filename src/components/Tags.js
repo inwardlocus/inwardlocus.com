@@ -20,14 +20,15 @@ function Tags({ tags }) {
       {tags.map(tag => (
         <li
           css={`
-            background: white;
-            line-height: 1.5;
-            padding: 5px 10px;
-            margin: 5px;
+            // background: white;
+            line-height: 0.5;
+            padding: 5px 5px;
+            margin: 2px;
             font-weight: bold;
             border: solid blue;
             :hover {
-              background: blue;
+              // background: blue;
+              
             }
           `}
           key={tag.fieldValue}
@@ -36,10 +37,10 @@ function Tags({ tags }) {
             css={`
               color: blue;
               box-shadow: none;
-              font-family: "Noto Sans", sans-serif;
+              font-family: 'Courier Prime', monospace;
 
               :hover {
-                color: white;
+                color: red;
               }
             `}
             to={`/tags/${kebabCase(tag.fieldValue)}/`}

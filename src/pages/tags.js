@@ -15,22 +15,22 @@ const TagsPage = ({
   },
   ...props
 }) => (
-  <Layout title={`${title}`}>
-    {/* <Bio />
+    <Layout title={`${title}`}>
+      {/* <Bio />
     <Line /> */}
 
-    <h2
-      css={`
+      <h2
+        css={`
         margin: 28px 0;
-        font-family: "Noto Sans", sans-serif;
+        font-family: 'Courier Prime', monospace;
       `}
-    >
-      Tags
+      >
+        Tags
     </h2>
-    <Helmet />
-    <Tags tags={tags} />
-  </Layout>
-);
+      <Helmet />
+      <Tags tags={tags} />
+    </Layout>
+  );
 
 export default TagsPage;
 
