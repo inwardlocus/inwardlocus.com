@@ -12,7 +12,7 @@ function BlogIndex(props) {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
   const Desc = styled.p`
-    font-family: "Noto Sans", sans-serif;
+  font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     /* color: #696969; */
   `;
