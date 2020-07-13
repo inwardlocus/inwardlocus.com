@@ -38,10 +38,7 @@ a {
   
   font-family: 'Major Mono Display', monospace;
 }
-p {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: bold;
-}
+h4{font-family: 'Exo 2', sans-serif;}
 .mysitelogo {
   width: 100px;
   float: left;
