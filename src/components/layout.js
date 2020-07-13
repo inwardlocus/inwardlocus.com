@@ -57,15 +57,7 @@ function Layout(props) {
         marginRight: `auto`,
         maxWidth: rhythm(32),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      }}><div>
-          <p css={`
-          
-          font-weight: bold;
-          font-size: 20px;
-          color: red;
-          font-family: 'Courier Prime', monospace;
-
-        `}>Latest Posts</p></div>{children}</main>
+      }}>{children}</main>
 
       {/* <Menu style={{ marginTop: "3em", marginBottom: "0 px" }} /> */}
 

@@ -22,6 +22,15 @@ function BlogIndex(props) {
       <SEO title="A library of inward reflections." />
       {/* <Bio /> */}
       {/* /<Line /> */}
+      <div>
+        <p css={`          
+          font-weight: bold;
+          font-size: 20px;
+          color: red;
+          margin: 0px;
+          font-family: 'Courier Prime', monospace;
+
+        `}>Latest Posts</p></div>
 
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
