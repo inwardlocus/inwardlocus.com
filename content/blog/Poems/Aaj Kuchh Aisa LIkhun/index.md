@@ -4,7 +4,7 @@ date: "2020-09-08"
 tags: ["diary", "poems", "love", "hindi"]
 description: Something about expressing and unravaling love in disguise.
 ---
-First four lines of this poetry are written by [@learner_forlife]([https://www.instagram.com/learner_forlife/). It inspired me to write a small poetry. Something about expressing and unravaling love in disguise.
+First four lines of this poetry are written by [@learner_forlife](https://www.instagram.com/learner_forlife/). It inspired me to write a small poetry. Something about expressing and unravaling love in disguise.
 
 
 आज मन किया </br>
