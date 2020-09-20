@@ -17,37 +17,47 @@ function BlogIndex(props) {
       <SEO title="A library of inward reflections." />
       {/* <Bio />
       <Line /> */}
+      <div><p css={`          
+          font-weight: bold;
+          font-size: 20px;
+          color: red;
+          margin: 0px;
+          font-family: 'Courier Prime', monospace;
 
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 32),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>
-                {node.frontmatter.date} | {node.timeToRead}
-                {" min read "}
-              </small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        );
-      })}
-    </Layout>
+        `}>All Posts</p></div>
+
+      {
+        posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug;
+          return (
+            <article key={node.fields.slug}>
+              <header>
+                <h3
+                  style={{
+                    marginBottom: rhythm(1 / 32),
+                  }}
+                >
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <small>
+                  {node.frontmatter.date} | {node.timeToRead}
+                  {" min read "}
+                </small>
+              </header>
+              <section>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </section>
+            </article>
+          );
+        })
+      }
+    </Layout >
   );
 }
 

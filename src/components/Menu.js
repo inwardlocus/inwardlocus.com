@@ -9,25 +9,26 @@ function Menu() {
         flex-wrap: wrap;
         list-style: none;
         margin: 0rem 0;
+        float: right;  
       `}
     >
       <li>
         <Link
           css={`
-            background: red;
-            line-height: 1.5;
+            // background: red;
+            // line-height: 1.5;
             padding: 5px 10px;
-            margin: 5px;
-            font-weight: bold;
-            color: white;
+            // margin: 5px;
+            // font-weight: bold;
+            color: black;
             box-shadow: none;
-            font-family: "Noto Sans", sans-serif;
+            font-family: 'Major Mono Display', monospace;
 
-            border: solid red;
+            // border: solid red;
 
             :hover {
-              color: red;
-              background: white;
+              color: blue;
+              // background: white;
             }
           `}
           to="/"
@@ -36,49 +37,49 @@ function Menu() {
         </Link>
         <Link
           css={`
-            background: red;
-            line-height: 1.5;
+            // background: red;
+            // line-height: 1.5;
             padding: 5px 10px;
-            margin: 5px;
-            font-weight: bold;
-            color: white;
+            // margin: 5px;
+            // font-weight: bold;
+            color: Black;
             box-shadow: none;
-            font-family: "Noto Sans", sans-serif;
+            font-family: 'Major Mono Display', monospace;
 
-            border: solid red;
+            // border: solid red;
 
             :hover {
-              color: red;
-              background: white;
+              color: blue;
+              // background: white;
             }
           `}
           to="/allposts"
         >
-          All Posts
+          Posts
         </Link>
       </li>
       <li>
         <Link
           css={`
-            background: red;
-            line-height: 1.5;
+            // background: red;
+            // line-height: 1.5;
             padding: 5px 10px;
-            margin: 5px;
-            font-weight: bold;
-            color: white;
+            // margin: 5px;
+            // font-weight: bold;
+            color: black;
             box-shadow: none;
-            font-family: "Noto Sans", sans-serif;
+            font-family: 'Major Mono Display', monospace;
 
-            border: solid red;
+            // border: solid red;
 
             :hover {
-              color: red;
-              background: white;
+              color: blue;
+              // background: white;
             }
           `}
           to="/tags"
         >
-          All Tags
+          Tags
         </Link>
       </li>
       {/* <li>
@@ -91,7 +92,7 @@ function Menu() {
             font-weight: bold;
             color: white;
             box-shadow: none;
-            font-family: "Noto Sans", sans-serif;
+            font-family: 'Major Mono Display', monospace;
             border: solid red;
 
             :hover {

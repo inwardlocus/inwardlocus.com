@@ -1,27 +1,28 @@
-@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
 
 .mysitetitle {
-  font-family: "Noto Sans", sans-serif;
-  padding-bottom: solid red 20px;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  
 }
-.mysitetitle:hover {
-  color: blue;
-  /* color: linear-gradient(to right, blue, red, blue); */
-}
+
 h2 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Major Mono Display', monospace;
 }
 
 h3 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Major Mono Display', monospace;
   /* border-bottom: 4px solid;
   border-radius: 0%;
   border-color: #fd3516; */
 }
 small {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Major Mono Display', monospace;
   font-weight: bold;
   font-size: 0.9em;
   color: grey;
@@ -31,11 +32,13 @@ small {
 }
 a:hover {
   color: blue;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Major Mono Display', monospace;
 }
-/* p {
-  padding-left: 2rem;
-} */
+a {
+  
+  font-family: 'Major Mono Display', monospace;
+}
+h4{font-family: 'Exo 2', sans-serif;}
 .mysitelogo {
   width: 100px;
   float: left;

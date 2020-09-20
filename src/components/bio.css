@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 h3 {
   line-height: 1em;
-  background: white;
+  
 }
 a {
   color: black;
 }
 p {
-  font-family: "Noto Sans", sans-serif;
-  //font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+  
 }
 .biotext {
   background-color: blue;
@@ -16,6 +16,6 @@ p {
   padding: 0 10px 0 10px;
   color: white;
   font-weight: bold;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Exo 2', sans-serif;
   box-shadow: 0 6px 6px -6px black;
 }

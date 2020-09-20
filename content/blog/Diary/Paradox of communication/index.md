@@ -2,7 +2,7 @@
 title: Paradox of communication
 date: "2020-01-27"
 description: This is a brief article on Paradox of communication by legendary scientist David Bohm.
-tags: ["philosphy", "short-read", "people"]
+tags: ["philosophy", "short-read", "people"]
 ---
 
 Ability of changing mind is the uncomfortable luxury one can have. People make assumptions and these assumptions design the various aspects of life.</br>
