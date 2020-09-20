@@ -2,7 +2,7 @@
 title: Are you Happy?
 date: "2020-07-05"
 description: How to be happy? What is real happiness? Am I happy? How can I be happy?
-tags: ["philosphy", "people","happiness"]
+tags: ["philosophy", "people","happiness"]
 ---
 
 For a long time now, Happiness is conditioned as an external object. Like an exterior, measurable thing. People have been chasing it for so long. People are constantly leading life seeking pleasure and trying to satisfy themselves with intellectual, social and physical needs. Apparently they are not succeeding.
