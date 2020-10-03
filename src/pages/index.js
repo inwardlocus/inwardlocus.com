@@ -61,6 +61,29 @@ function BlogIndex(props) {
           </article>
         );
       })}
+      <Link
+        css={`
+        font-weight: bold;
+        font-size: 20px;
+        color: #2c99d1;;
+        margin: 0px;
+        font-family: 'Courier Prime', monospace;
+        box-shadow: none;
+
+            :hover {
+              color: #2c99d1;
+              background: white;
+              font-weight: bold;
+        font-size: 20px;
+        margin: 0px;
+        font-family: 'Courier Prime', monospace;
+        box-shadow: 0px 1px;
+            }
+          `}
+        to="/allposts"
+      >
+        Read more
+        </Link>
     </Layout>
   );
 }

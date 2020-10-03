@@ -8,6 +8,8 @@
 .mysitetitle {
   font-family: 'Major Mono Display', monospace;
   font-weight: bold;
+  padding: 1rem;
+  
   
 }
 
@@ -44,4 +46,8 @@ h4{font-family: 'Exo 2', sans-serif;}
   float: left;
   margin-right: 50px;
   margin-bottom: 0;
+}
+
+.Japs{
+  color: red
 }
