@@ -1,15 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 import Menu from "../components/Menu";
 import styled from "styled-components";
+import { bool, func } from 'prop-types';
 
 import { rhythm, scale } from "../utils/typography";
 
+const [open, setOpen] = useState(false);
 const Contact = styled.p`
   font-size: 1.1rem;
   font-weight: bold;
   border-bottom: 1px solid;
 `;
+export const StyledBurger = styled.button`
+  position: absolute;
+  top: 20%;
+  left: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: 2rem;
+    height: 0.25rem;
+    background: black;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+`;
+const Burger = ({ open, setOpen }) => {
+  return (
+    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <div />
+      <div />
+      <div />
+    </StyledBurger>
+  )
+}
+Burger.propTypes = {
+  open: bool.isRequired,
+  setOpen: func.isRequired,
+};
+
 
 function Layout(props) {
   const { title, children } = props;
@@ -17,6 +62,7 @@ function Layout(props) {
   // let header;
 
   return (
+
     <div
       style={{
         marginLeft: `auto`,
@@ -49,7 +95,12 @@ function Layout(props) {
           >
             {title}
           </Link>
-          <Menu style={{}} />
+
+          <div>
+            <Burger open={open} setOpen={setOpen} />
+            <Menu open={open} setOpen={setOpen} />
+
+          </div>
         </h1>
 
       </header>

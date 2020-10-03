@@ -7,6 +7,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
 
+
 function BlogIndex(props) {
   const { data } = props;
   const siteTitle = data.site.siteMetadata.title;
