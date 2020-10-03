@@ -23,6 +23,7 @@ function Layout(props) {
         marginRight: `auto`,
         maxWidth: rhythm(100),
         padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
+
       }}
     >
       <header>

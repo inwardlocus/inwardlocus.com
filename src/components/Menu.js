@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+import styled from "styled-components";
+
+
 
 function Menu() {
   return (
@@ -13,49 +16,51 @@ function Menu() {
       `}
     >
       <li>
+
         <Link
           css={`
             // background: red;
             // line-height: 1.5;
-            padding: 5px 10px;
+            padding: 5px 30px;
             // margin: 5px;
             // font-weight: bold;
-            color: black;
+            color: #2c99d1;
             box-shadow: none;
             font-family: 'Major Mono Display', monospace;
 
             // border: solid red;
 
             :hover {
-              color: blue;
-              // background: white;
+              color: #2c99d1;
+              background: white;
             }
           `}
           to="/"
         >
+          <span class="Japs">#</span>
           Home
         </Link>
         <Link
           css={`
             // background: red;
             // line-height: 1.5;
-            padding: 5px 10px;
+            padding: 5px 30px;
             // margin: 5px;
             // font-weight: bold;
-            color: Black;
+            color: #2c99d1;
             box-shadow: none;
             font-family: 'Major Mono Display', monospace;
 
             // border: solid red;
 
             :hover {
-              color: blue;
-              // background: white;
+              color: #2c99d1;
+              background: white;
             }
           `}
           to="/allposts"
         >
-          Posts
+          <span class="Japs">#</span>Posts
         </Link>
       </li>
       <li>
@@ -63,23 +68,23 @@ function Menu() {
           css={`
             // background: red;
             // line-height: 1.5;
-            padding: 5px 10px;
+            padding: 5px 30px;
             // margin: 5px;
             // font-weight: bold;
-            color: black;
+            color: #2c99d1;
             box-shadow: none;
             font-family: 'Major Mono Display', monospace;
 
             // border: solid red;
 
             :hover {
-              color: blue;
-              // background: white;
+              color: #2c99d1;
+              background: white;
             }
           `}
           to="/tags"
         >
-          Tags
+          <span class="Japs">#</span>Tags
         </Link>
       </li>
       {/* <li>
