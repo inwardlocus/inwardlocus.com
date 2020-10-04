@@ -1,22 +1,83 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "gatsby";
 import Menu from "../components/Menu";
 import styled from "styled-components";
+import { bool, func } from 'prop-types';
 
 import { rhythm, scale } from "../utils/typography";
+
 
 const Contact = styled.p`
   font-size: 1.1rem;
   font-weight: bold;
   border-bottom: 1px solid;
 `;
+export const StyledBurger = styled.button`
+position: absolute;
+top: 13%;
+right: 0rem;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 2rem;
+height: 2rem;
+background: transparent;
+border: none;
+cursor: pointer;
+padding: 0;
+z-index: 10;
+
+&:focus {
+  outline: none;
+}
+
+div {
+  width: 2rem;
+  height: 0.25rem;
+  background: black;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+
+  :first-child {
+    transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+  }
+
+  :nth-child(2) {
+    opacity: ${({ open }) => open ? '0' : '1'};
+    transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
+  }
+
+  :nth-child(3) {
+    transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+  }
+}
+`;
+const Burger = ({ open, setOpen }) => {
+  return (
+    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <div />
+      <div />
+      <div />
+    </StyledBurger>
+  )
+}
+Burger.propTypes = {
+  open: bool.isRequired,
+  setOpen: func.isRequired,
+};
+
 
 function Layout(props) {
   const { title, children } = props;
 
+  const [open, setOpen] = useState(false);
+
   // let header;
 
   return (
+
     <div
       style={{
         marginLeft: `auto`,
@@ -27,15 +88,13 @@ function Layout(props) {
       }}
     >
       <header>
-        {/* <img src={sitelogo} alt="inward locus logo" className="mysitelogo" /> */}
         <h1
           className="mysitetitle"
           style={{
-            // ...scale(1),
             marginBottom: rhythm(0.5),
             marginTop: 0,
-            fontSize: 18
-            // borderBottom: `1mm ridge #fd3516`,
+            fontSize: 18,
+            marginLeft: 0
           }}
         >
           <Link
@@ -49,8 +108,13 @@ function Layout(props) {
           >
             {title}
           </Link>
-          <Menu style={{}} />
+          <div className='bur'>
+            <Burger open={open} setOpen={setOpen} />
+            <Menu open={open} setOpen={setOpen} />
+          </div>
+
         </h1>
+
 
       </header>
       <main style={{
