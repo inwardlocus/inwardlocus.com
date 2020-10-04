@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link, graphql } from "gatsby";
 import styled from "styled-components";
 import Bio from "../components/bio";
@@ -6,9 +6,12 @@ import Line from "../components/Line";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
+import Menu from "../components/Menu";
+
 
 
 function BlogIndex(props) {
+
   const { data } = props;
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
@@ -19,8 +22,10 @@ function BlogIndex(props) {
   `;
 
   return (
+
     <Layout title={siteTitle}>
       <SEO title="A library of inward reflections." />
+
       {/* <Bio /> */}
       {/* /<Line /> */}
       <div>
@@ -38,6 +43,7 @@ function BlogIndex(props) {
         return (
           <article key={node.fields.slug}>
             <header>
+
               <h3
                 style={{
                   marginBottom: rhythm(1 / 32),
@@ -51,6 +57,7 @@ function BlogIndex(props) {
                 {node.frontmatter.date} | {node.timeToRead}
                 {" min read "}
               </small>
+
             </header>
             <Desc>
               <p
