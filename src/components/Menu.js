@@ -49,14 +49,13 @@ export const StyledMenu = styled.nav`
 
       
     
-    @media (max-width: 768px) {
+    @media (max-width: 576px) {
       font-size: 1.5rem;
       text-align: left;
     }
 
     &:hover {
-    
-      color: #808080;
+      color: #2c99d1;
     }
   }
 `;
