@@ -26,12 +26,12 @@ export const StyledMenu = styled.nav`
   padding: 3rem;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   bottom:0;
   // width: 100%;
   
   transition: transform 0.3s ease-in-out;
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   
   @media (max-width: 768px) {
     width: 100%;
