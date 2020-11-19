@@ -5,6 +5,10 @@ import SEO from "../components/seo";
 import styled from "styled-components";
 
 function DailyAffirmations(props) {
+
+  const kwot = ['I am noticed and appriciated in most positive ways. I am loved.', 'I love and approve of my self. All is well.']
+
+  let totalQuotes = kwot.length
   const { data } = props;
   const siteTitle = data.site.siteMetadata.title;
 
@@ -69,13 +73,9 @@ function DailyAffirmations(props) {
     }}>
       <SEO title="Daily Affirmations" />
 
-      <Quotation>I am noticed and appriciated in most positive ways. I am loved.
-      </Quotation>
+      <Quotation> {kwot[Math.floor((Math.random() * totalQuotes))]} </Quotation>
+
       <Author>Daily Affirmation</Author>
-
-
-
-
     </div>
   );
 }
