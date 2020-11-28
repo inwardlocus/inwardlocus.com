@@ -21,10 +21,13 @@ function BlogIndex(props) {
     /* color: #696969; */
   `;
 
+
   return (
 
     <Layout title={siteTitle}>
       <SEO title="A library of inward reflections." />
+
+
 
       {/* <Bio /> */}
       {/* /<Line /> */}

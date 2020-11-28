@@ -4,6 +4,7 @@ import { DEVICES } from "../constants";
 import { bool } from 'prop-types';
 
 
+
 const Wrapper = styled.div`
   margin: 1rem 0.5rem;
   flex: 1;
@@ -70,6 +71,9 @@ const Menu = ({ open }) => {
         </a>
       <a href="/tags">
         Tags
+        </a>
+      <a href="/affirmations">
+        Affirmations
         </a>
     </StyledMenu>
   )
