@@ -24,7 +24,7 @@ export const StyledMenu = styled.nav`
   height: 100vh;
   text-align: left;
   padding: 3rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom:0;
